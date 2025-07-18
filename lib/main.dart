@@ -27,10 +27,11 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       translations: Language(),
       locale: Locale("en", "US"),
+      fallbackLocale: Locale("en", "US"),
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const SignupScreen(),
+      home: const Localization(),
 
       //for using routes define all pages here
       initialRoute: "/",

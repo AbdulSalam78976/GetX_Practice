@@ -56,7 +56,7 @@ class _LocalizationState extends State<Localization> {
             ),
           ),
           const SizedBox(height: 24),
-          ListTile(title: Text('message'.tr), subtitle: Text('Abdul'.tr)),
+          ListTile(title: Text('message'.tr), subtitle: Text('Name'.tr)),
         ],
       ),
     );
