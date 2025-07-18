@@ -19,8 +19,8 @@ class _LocalizationState extends State<Localization> {
   // For displaying language names
   final Map<String, String> languageNames = {
     'en_US': 'English',
-    'zh_CN': 'Chinese',
-    'ur_PK': 'Urdu',
+    'zh_CN': '中文',
+    'ur_PK': 'اردو',
   };
 
   Locale selectedLocale = const Locale('en', 'US');
@@ -56,7 +56,10 @@ class _LocalizationState extends State<Localization> {
             ),
           ),
           const SizedBox(height: 24),
-          ListTile(title: Text('message'.tr), subtitle: Text('Name'.tr)),
+          ListTile(
+            title: Text('hint_text_name'.tr),
+            subtitle: Text('hint_text_email'.tr),
+          ),
         ],
       ),
     );

@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const Localization(),
+      //  home: const Localization(),
 
       //for using routes define all pages here
       initialRoute: "/",
